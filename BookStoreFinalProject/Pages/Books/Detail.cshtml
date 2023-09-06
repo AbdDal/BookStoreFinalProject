@@ -1,0 +1,24 @@
+﻿@page "{bookId:int}"
+@model BookStoreFinalProject.Pages.Books.Detail
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Book Details</title>
+</head>
+<body>
+<div>
+    <div class="card text-bg-success" style="width: 30rem;">
+        <div class="card-header">Book</div>
+          <div class="card-body">
+            <p class="card-text">Author: @Model.Book.Author.Name</p>
+            <p class="card-text"><b>Description:</b> @Model.Book.Description</p>
+          </div>
+    </div>
+    <div class="mt-2">
+        <a asp-page="./List" class="btn btn-warning">Back</a>
+    </div>
+</div>
+</body>
+</html>

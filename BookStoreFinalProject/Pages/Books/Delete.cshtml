@@ -1,0 +1,25 @@
+﻿@page
+@model BookStoreFinalProject.Pages.Books.Delete
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Delete Book</title>
+</head>
+<body>
+<div>
+    <div class="card">
+            <div class="card-header">
+                <div class="card-body">
+                    <p>Are you Sure you want to delete @Model.Book.Title ?</p>
+                    <form method="post">
+                        <button type="submit" class="btn btn-danger">Delete</button>
+                        <button asp-page="./List" class="btn btn-success">Back</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+</div>
+</body>
+</html>

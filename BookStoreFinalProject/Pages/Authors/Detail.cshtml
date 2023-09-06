@@ -1,0 +1,44 @@
+﻿@page "{authorId:int}"
+@using BookStoreFinalProject.Core.Entities
+@model BookStoreFinalProject.Pages.Authors.Detail
+
+
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <title>Author Detail</title>
+</head>
+<body>
+<div>
+    <div class="card text-bg-warning" style="width: 30rem;">
+        <div class="card-header">
+            <b>Name:</b> @Model.Author.Name
+        </div>
+        <ul class="list-group list-group-flush">
+            <li class="list-group-item"><b>Email:</b>  @Model.Author.Email</li>
+            <li class="list-group-item"><b>Address:</b>  @Model.Author.Address</li>
+            <li class="list-group-item"><b>Gender:</b>  @Model.Author.Gender</li>
+            @* <li class="list-group-item">Books: @Model.Author.Books</li> *@
+        </ul>
+    </div>
+    <hr>
+    <h2>Books</h2>
+    <div>
+        @foreach (var book in @Model.Author.Books)
+            {
+                <div class="card text-bg-light" style="width: 30rem;">
+                        <div class="card-header">Book</div>
+                          <div class="card-body">
+                            <p class="card-text"><b>Title:</b> @book.Title</p>
+                            <p class="card-text"><b>Description:</b> @book.Description</p>
+                          </div>
+                    </div>
+            }
+    </div>
+    <div class="mt-2">
+        <a asp-page="./List" class="btn btn-lg btn-success">Back</a>
+    </div>
+</div>
+</body>
+</html>

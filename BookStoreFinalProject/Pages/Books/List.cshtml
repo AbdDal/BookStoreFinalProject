@@ -1,0 +1,55 @@
+﻿@page
+@using BookStoreFinalProject.Core.Entities
+@model BookStoreFinalProject.Pages.Books.List
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Books List</title>
+</head>
+<body>
+<div>
+    <h2>Books</h2>
+    <table class="table">
+        <thead>
+        <tr>
+            <th scope="col">Id</th>
+            <th scope="col">Title</th>
+            <th scope="col">Description</th>
+            <th scope="col">Author name</th>
+            <th scope="col">Operations</th>
+        </tr>
+        </thead>
+        <tbody>
+        @foreach (var book in @Model.Books)
+        {
+            <tr>
+                <th scope="row">@book.Id</th>
+                <td>@book.Title</td>
+                <td>@book.Description</td>
+                <td>@book.Author.Name</td>
+                <td>
+                    <div class="btn-group">
+                        <a asp-page="./Detail" asp-route-bookId="@book.Id" class="btn btn-primary">
+                            <i class="bi bi-zoom-in"></i>
+
+                        </a>
+                        <a asp-page="./Edit" class="btn btn-success" asp-route-bookId="@book.Id">
+                            <i class="bi bi-pencil-square"></i>
+
+                        </a>
+                        <a asp-page="./Delete" class="btn btn-danger" asp-route-bookId="@book.Id">
+                            <i class="bi bi-x-square"></i>
+                        </a>
+                    </div>
+                </td>
+            </tr>
+        }
+        </tbody>
+    </table>
+    
+    <a class="btn btn-primary" asp-page="./Add">Add Book</a>
+</div>
+</body>
+</html>

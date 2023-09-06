@@ -1,0 +1,40 @@
+﻿@page
+@model BookStoreFinalProject.Pages.Authors.Add
+
+
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <title>Add Author</title>
+</head>
+<body>
+<div>
+    <form method="post">
+      <div class="mb-3">
+        <label asp-for="Author.Name" class="form-label">Name</label>
+        <input type="text" class="form-control" asp-for="Author.Name" aria-describedby="name">
+        <span asp-validation-for="Author.Name" class="text-danger"></span>
+      </div>
+        <div class="mb-3">
+            <label asp-for="Author.Email" class="form-label">Email</label>
+            <input type="email" class="form-control" asp-for="Author.Email">
+            <span asp-validation-for="Author.Email" class="text-danger"></span>
+        </div>
+        <div class="mb-3">
+            <label asp-for="Author.Address" class="form-label">Address</label>
+            <input asp-for="Author.Address" type="text" class="form-control">
+        </div>
+        <div class="mb-3">
+            <label asp-for="Author.Gender" class="form-label">Gender</label>
+            <select asp-for="Author.Gender" class="form-select">
+                <option value="1">Male</option>
+                <option value="2">Female</option>
+            </select>
+        </div>
+        
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+</div>
+</body>
+</html>

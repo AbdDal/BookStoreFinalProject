@@ -1,0 +1,17 @@
+C:\Users\MorjanM\RiderProjects\BookStoreFinalProject\BookStoreFinalProject.Data\bin\Debug\net7.0\BookStoreFinalProject.Data.deps.json
+C:\Users\MorjanM\RiderProjects\BookStoreFinalProject\BookStoreFinalProject.Data\bin\Debug\net7.0\BookStoreFinalProject.Data.runtimeconfig.json
+C:\Users\MorjanM\RiderProjects\BookStoreFinalProject\BookStoreFinalProject.Data\bin\Debug\net7.0\BookStoreFinalProject.Data.dll
+C:\Users\MorjanM\RiderProjects\BookStoreFinalProject\BookStoreFinalProject.Data\bin\Debug\net7.0\BookStoreFinalProject.Data.pdb
+C:\Users\MorjanM\RiderProjects\BookStoreFinalProject\BookStoreFinalProject.Data\bin\Debug\net7.0\BookStoreFinalProject.Core.dll
+C:\Users\MorjanM\RiderProjects\BookStoreFinalProject\BookStoreFinalProject.Data\bin\Debug\net7.0\BookStoreFinalProject.Core.pdb
+C:\Users\MorjanM\RiderProjects\BookStoreFinalProject\BookStoreFinalProject.Data\obj\Debug\net7.0\BookStoreFinalProject.Data.csproj.AssemblyReference.cache
+C:\Users\MorjanM\RiderProjects\BookStoreFinalProject\BookStoreFinalProject.Data\obj\Debug\net7.0\BookStoreFinalProject.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\MorjanM\RiderProjects\BookStoreFinalProject\BookStoreFinalProject.Data\obj\Debug\net7.0\BookStoreFinalProject.Data.AssemblyInfoInputs.cache
+C:\Users\MorjanM\RiderProjects\BookStoreFinalProject\BookStoreFinalProject.Data\obj\Debug\net7.0\BookStoreFinalProject.Data.AssemblyInfo.cs
+C:\Users\MorjanM\RiderProjects\BookStoreFinalProject\BookStoreFinalProject.Data\obj\Debug\net7.0\BookStoreFinalProject.Data.csproj.CoreCompileInputs.cache
+C:\Users\MorjanM\RiderProjects\BookStoreFinalProject\BookStoreFinalProject.Data\obj\Debug\net7.0\BookStoreFinalProject.Data.csproj.CopyComplete
+C:\Users\MorjanM\RiderProjects\BookStoreFinalProject\BookStoreFinalProject.Data\obj\Debug\net7.0\BookStoreFinalProject.Data.dll
+C:\Users\MorjanM\RiderProjects\BookStoreFinalProject\BookStoreFinalProject.Data\obj\Debug\net7.0\refint\BookStoreFinalProject.Data.dll
+C:\Users\MorjanM\RiderProjects\BookStoreFinalProject\BookStoreFinalProject.Data\obj\Debug\net7.0\BookStoreFinalProject.Data.pdb
+C:\Users\MorjanM\RiderProjects\BookStoreFinalProject\BookStoreFinalProject.Data\obj\Debug\net7.0\BookStoreFinalProject.Data.genruntimeconfig.cache
+C:\Users\MorjanM\RiderProjects\BookStoreFinalProject\BookStoreFinalProject.Data\obj\Debug\net7.0\ref\BookStoreFinalProject.Data.dll

@@ -1,0 +1,36 @@
+﻿@page
+@model BookStoreFinalProject.Pages.Books.Add
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Add Book</title>
+</head>
+<body>
+<div>
+    <form method="post">
+          <div class="mb-3">
+            <label asp-for="Book.Title" class="form-label">Title</label>
+            <input class="form-control" asp-for="Book.Title" aria-describedby="title">
+            <span asp-validation-for="Book.Title" class="text-danger"></span>
+          </div>
+            <div class="mb-3">
+                <label asp-for="Book.Description" class="form-label">Description</label>
+                <textarea class="form-control" asp-for="Book.Description"></textarea>
+            </div>
+            <div class="mb-3">
+                <label asp-for="Book.AuthorId" class="form-label">Authors</label>
+                <select asp-for="Book.AuthorId" class="form-select">
+                    @foreach (var author in Model.Authors)
+                    {
+                        <option value="@author.Id">@author.Name</option>
+                    }
+                </select>
+            </div>
+            
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+</div>
+</body>
+</html>

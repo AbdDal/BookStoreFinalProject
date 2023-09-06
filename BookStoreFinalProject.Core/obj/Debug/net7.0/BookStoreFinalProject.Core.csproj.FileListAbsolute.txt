@@ -1,0 +1,12 @@
+C:\Users\MorjanM\RiderProjects\BookStoreFinalProject\BookStoreFinalProject.Core\bin\Debug\net7.0\BookStoreFinalProject.Core.deps.json
+C:\Users\MorjanM\RiderProjects\BookStoreFinalProject\BookStoreFinalProject.Core\bin\Debug\net7.0\BookStoreFinalProject.Core.dll
+C:\Users\MorjanM\RiderProjects\BookStoreFinalProject\BookStoreFinalProject.Core\bin\Debug\net7.0\BookStoreFinalProject.Core.pdb
+C:\Users\MorjanM\RiderProjects\BookStoreFinalProject\BookStoreFinalProject.Core\obj\Debug\net7.0\BookStoreFinalProject.Core.csproj.AssemblyReference.cache
+C:\Users\MorjanM\RiderProjects\BookStoreFinalProject\BookStoreFinalProject.Core\obj\Debug\net7.0\BookStoreFinalProject.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\MorjanM\RiderProjects\BookStoreFinalProject\BookStoreFinalProject.Core\obj\Debug\net7.0\BookStoreFinalProject.Core.AssemblyInfoInputs.cache
+C:\Users\MorjanM\RiderProjects\BookStoreFinalProject\BookStoreFinalProject.Core\obj\Debug\net7.0\BookStoreFinalProject.Core.AssemblyInfo.cs
+C:\Users\MorjanM\RiderProjects\BookStoreFinalProject\BookStoreFinalProject.Core\obj\Debug\net7.0\BookStoreFinalProject.Core.csproj.CoreCompileInputs.cache
+C:\Users\MorjanM\RiderProjects\BookStoreFinalProject\BookStoreFinalProject.Core\obj\Debug\net7.0\BookStoreFinalProject.Core.dll
+C:\Users\MorjanM\RiderProjects\BookStoreFinalProject\BookStoreFinalProject.Core\obj\Debug\net7.0\refint\BookStoreFinalProject.Core.dll
+C:\Users\MorjanM\RiderProjects\BookStoreFinalProject\BookStoreFinalProject.Core\obj\Debug\net7.0\BookStoreFinalProject.Core.pdb
+C:\Users\MorjanM\RiderProjects\BookStoreFinalProject\BookStoreFinalProject.Core\obj\Debug\net7.0\ref\BookStoreFinalProject.Core.dll
